@@ -42,7 +42,6 @@ public class PeopleService {
     }
 
     @Transactional
-    public void delete (int id) {
-        peopleRepository.deleteById(id);
+    public void delete (int id) { peopleRepository.deleteById(id);
     }
 }
